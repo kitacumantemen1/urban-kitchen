@@ -16,21 +16,21 @@ const page = () => {
         <div>
           <p className='font-bold text-lg pb-8'>Insert Your Name:</p>
 
-          <div className='p-10'>
+          <div className=''>
 
             <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
             <p className='font-bold text-lg pb-8 pt-8'>Insert Your Address:</p>
             <div className=''>
               <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
             </div>
-            <div className="flex justify-center items-center mt-[50px] translate-x-[100px]">
-              <div className="bg-red-900 h-10 w-48 rounded-2xl text-center pt-1  ">
+            <div className="pl-24 translate-y-[70px] pt-10">
+              <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
                 <a className="text-italic text-xl text-slate-100" href="/payment">Payment</a>
               </div>
             </div>
-            <div className="-translate-y-[40px]">
+            <div className="pl-24 -translate-y-[40px]">
               <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                <a className="text-italic text-xl text-slate-100" href="/menumakan">Add Other Menus</a>
+                <a className="text-italic text-xl text-slate-100" href="/menumakan">Add Other Menu</a>
               </div>
             </div>
 
