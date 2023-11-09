@@ -16,7 +16,7 @@ const page = () => {
         <div>
           <p className='font-bold text-lg pb-8'>Insert Your Name:</p>
 
-          <div className=''>
+          <div className='p-10'>
 
             <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
             <p className='font-bold text-lg pb-8 pt-8'>Insert Your Address:</p>
