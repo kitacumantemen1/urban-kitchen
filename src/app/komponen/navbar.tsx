@@ -13,7 +13,7 @@ export default function DefaultNavbar() {
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className='mr-76 w-40'>
-                <Navbar.Link className='text-2xl font-bold' href="/" active>
+                <Navbar.Link className='text-2xl font-bold' href="/menu" active>
                     Menu
                 </Navbar.Link>
                 <Navbar.Link className='text-2xl font-bold' href="/HelpCenter">
