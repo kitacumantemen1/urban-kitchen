@@ -43,6 +43,22 @@ export default function Home() {
           <a className="text-italic text-3xl text-slate-100" href="/menuminum"> See All Drinks</a>
         </div>
       </div>
+      <div>
+        <h1 className="p-20 pb-0 font-bold text-5xl">
+          Urban Snacks
+        </h1>
+      </div>
+      <div className="grid grid-cols-4 mb-[370px]">
+        <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
+        <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
+        <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
+        <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
+      </div>
+      <div className="flex justify-center items-center mt-[80px] mb-[80px]">
+        <div className="bg-red-900 h-19 w-56 rounded-lg text-center ">
+          <a className="text-italic text-3xl text-slate-100" href="/menuSnacks"> See All Snacks</a>
+        </div>
+      </div>
 
     </div>
 
