@@ -5,61 +5,61 @@ export default function page() {
         <div>
             <div className="p-16 pl-[550px]">
                 <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                    <a className="text-italic text-xl text-slate-100" href="register">Confirm</a>
+                    <a className="text-italic text-xl text-slate-100" href="/register">Confirm</a>
                 </div>
             </div>
             <div className='grid grid-cols-2'>
-                <div><p className='text-5xl font-bold p-20 pl-64'>E-Wallet</p>
-                    <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] mb-[370px] rounded-[15px] translate-x-[90px]'>
-                        <img className='w-42 pt-1 h-24' src='assets/Dana-removebg-preview.png' />
-                        <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
+                <div><p className='text-5xl font-bold p-20 pl-[280px] mb-64'>E-Wallet</p>
+                    <a href="/">
+                        <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[250px]'>
+                            <img className='w-50 h-22 pl-2' src='assets/Dana-removebg-preview.png' />
+                            <p className=' translate-x-[65px] font-bold text-2xl'>RP.52.000</p>
+                        </div></a>
 
-                    </div>
-                    <div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[330px] translate-x-[90px]'>
-                            <img className='w-42 pt-5 pl-8 h-20' src='assets/ovo-bg.png' />
-                            <p className='-translate-y-[50px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[290px] translate-x-[90px]'>
-                            <img className='w-42 pt-1 pl-4 h-24' src='assets/gopay-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[250px] translate-x-[90px]'>
-                            <img className='w-42 pt-1 h-24 pl-9' src='assets/qris-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
-                        </div>
-                    </div>
+                    <a href="/">  <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[250px]'>
+                        <img className='w-50 pt-7 h-16 pl-14' src='assets/ovo-bg.png' />
+                        <p className=' translate-x-[65px] font-bold text-2xl pt-4   '>RP.52.000</p>
+                    </div></a>
+
+                    <a href="/"> <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[250px]'>
+                        <img className='w-50 pt-7 h-16 pl-14' src='assets/gopay-bg.png' />
+                        <p className=' translate-x-[65px] font-bold text-2xl pt-4   '>RP.52.000</p>
+                    </div></a>
+
+                    <a href="/"> <div className=' h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[250px]'>
+                        <img className='w-50 pt-7 h-16 pl-14' src='assets/qris-bg.png' />
+                        <p className=' translate-x-[65px] font-bold text-2xl pt-4   '>RP.52.000</p>
+                    </div></a>
                 </div>
 
                 <div>
                     <div>
-                        <p className='font-bold text-5xl p-20 pl-72'>Bank</p>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] mb-[370px] rounded-[15px] translate-x-[90px]'>
-                            <img className='w-48 pt-4 h-20 pl-5' src='assets/bca-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl pt-3'>RP.52.000</p>
-                        </div>
-                        <div>
-                        </div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[330px] translate-x-[90px]'>
-                            <img className='w-48 pt-4 h-20 pl-8' src='assets/bri-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl pt-3'>RP.52.000</p>
-                        </div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[290px] translate-x-[90px]'>
-                            <img className='w-52 h-24 pl-9 pb-3' src='assets/mandiri-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
-                        </div>
-                        <div className='h-[100px] w-[500px] border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[90px]'>
-                            <img className='w-42 pt-1 h-24 pl-5' src='assets/cimbniaga-bg.png' />
-                            <p className='-translate-y-[60px] translate-x-[350px] font-bold text-2xl'>RP.52.000</p>
-                        </div>
+                        <p className='font-bold text-5xl p-20 pl-44 mb-64'>Bank</p>
+                        <a href="/">
+                            <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[100px]'>
+                                <img className='w-50 pt-7 h-16 pl-14' src='assets/bca-bg.png' />
+                                <p className=' translate-x-[65px] font-bold text-2xl pt-4   '>RP.52.000</p>
+                            </div></a>
+
+                        <a href="/">  <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[100px]'>
+                            <img className='w-50 pt-7 h-16 pl-16' src='assets/bri-bg.png' />
+                            <p className=' translate-x-[65px] font-bold text-2xl pt-4'>RP.52.000</p>
+                        </div></a>
+
+                        <a href="/">  <div className='mb-10 h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[100px]'>
+                            <img className='w-56 pt-3 h-20 pl-14' src='assets/mandiri-bg.png' />
+                            <p className=' translate-x-[65px] font-bold text-2xl pt-2   '>RP.52.000</p>
+                        </div></a>
+
+                        <a href="/">
+                            <div className=' h-[150px] w-64 border-red-900 bg-inherit border-solid border-[3px] rounded-[15px] -translate-y-[260px] translate-x-[100px]'>
+                                <img className='w-52 pt-3 h-20 pl-10' src='assets/cimbniaga-bg.png' />
+                                <p className=' translate-x-[65px] font-bold text-2xl pt-2   '>RP.52.000</p>
+                            </div></a>
+
                     </div>
                 </div>
             </div>
-
 
         </div>
     )
