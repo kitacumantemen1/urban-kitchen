@@ -1,7 +1,7 @@
 'use client';
 export default function FooterSitemapLinks() {
     return (
-        <div className="md:h-72 sm:h-62 h-56 md:w-screen sm:w-full w-10/12 bg-slate-300">
+        <div className="md:h-72 sm:h-56 h-44 md:w-screen sm:w-56 w-auto bg-slate-300">
             <div className="grid grid-cols-4">
                 <div className="md:h-56 sm:h-48 h-40">
                     <img className="h-full w-15" src="assets//logo.png" />
