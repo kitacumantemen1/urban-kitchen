@@ -34,7 +34,7 @@ export default function page() {
                                         </div>
                                         <div className="p-10 pl-[150px]">
                                             <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                                                <a className="text-italic text-xl text-slate-100" href="register">Register</a>
+                                                <a className="text-italic text-xl text-slate-100" href="register">Submit</a>
                                             </div>
                                         </div>
                                     </div>
