@@ -48,7 +48,7 @@ export default function Home() {
           Urban Snacks
         </h1>
       </div>
-      <div className="md:grid grid-cols-4 sm:grid-cols-2 mb-[370px]">
+      <div className="md:grid grid-cols-4 sm: grid grid-cols-2 mb-[370px]">
         <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
         <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
         <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
