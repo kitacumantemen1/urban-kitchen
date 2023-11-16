@@ -25,7 +25,7 @@ export default function DefaultNavbar() {
                 </div>
 
             </Navbar.Collapse>
-            <a href="/HelpCenter">
+            <a href="/keranjang">
                 <img src="assets//keranjang.png" className="h-10 w-11 mr-10" />
             </a>
 
