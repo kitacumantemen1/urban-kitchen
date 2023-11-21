@@ -6,7 +6,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 
 export const Coffee = () => {
-    const burger = useGLTF('./assets/3d/burger.gltf');
+    const burger = useGLTF('./assets/3d/burgerBaru1.gltf');
 
     return (
         <primitive object={burger.scene} scale={5} position-y={-2} />
