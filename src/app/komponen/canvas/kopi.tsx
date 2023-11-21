@@ -6,10 +6,10 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 
 export const Kopi = () => {
-    const coffee = useGLTF('./assets/3d/kopiNew.gltf');
+    const coffee = useGLTF('./assets/3d/gelasBaru1.gltf');
 
     return (
-        <primitive object={coffee.scene} scale={5} position-y={-2} />
+        <primitive object={coffee.scene} scale={10} position-y={-2} />
     );
 };
 
