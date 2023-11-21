@@ -11,7 +11,7 @@ const Object = ({ src }: { src?: any }) => {
     return <primitive object={burger.scene} scale={5} position-y={-2} />;
 };
 
-export default function Burger({ obj, nama, harga, }: { obj?: any, nama?: any, harga?: any }) {
+export default function Burger({ obj, nama, }: { obj?: any, nama?: any }) {
     return (
         <>
             <motion.div
@@ -43,9 +43,6 @@ export default function Burger({ obj, nama, harga, }: { obj?: any, nama?: any, h
                         }}
                         className=""
                     >
-                        <h3 className="text-[#ffdcd2] font-bold md:text-[21px] sm:text-[16px] text-[10px]">
-                            {nama}
-                        </h3>
                     </motion.div>
                     <div className="md:mt-5 sm:mt-[10px] mb-[5px]"></div>
                     <motion.div
@@ -56,7 +53,7 @@ export default function Burger({ obj, nama, harga, }: { obj?: any, nama?: any, h
                             ease: "easeInOut",
                             delay: 2.25,
                         }}
-                        className="bg-[#d6a764] w-full  md:mb-5 sm:mb-[10px] mb-[5px] rounded-lg pt-5 md:h-56 sm:h-28 h-16 "
+                        className=" w-full  md:mb-5 sm:mb-[10px] mb-[5px] rounded-lg pt-5 md:h-56 sm:h-28 h-16 "
                     >
                         <Canvas
                             shadows
@@ -96,11 +93,6 @@ export default function Burger({ obj, nama, harga, }: { obj?: any, nama?: any, h
                         }}
                         className="grid grid-cols-3"
                     >
-                        <p className="text-white md:my-5 sm:my-3 my-2 font-bold sm:text-base md:text-xl text-[7px]">
-                            {harga}
-                        </p>
-
-
                     </motion.div>
                 </Tilt>
             </motion.div>
