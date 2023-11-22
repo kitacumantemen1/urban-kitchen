@@ -12,6 +12,7 @@
     "@react-three/drei": "^9.88.17",
     "@react-three/fiber": "^8.15.11",
     "@types/three": "^0.158.2",
+    "firebase": "^10.6.0",
     "flowbite-react": "^0.6.4",
     "framer-motion": "^10.16.5",
     "next": "13.5.6",
