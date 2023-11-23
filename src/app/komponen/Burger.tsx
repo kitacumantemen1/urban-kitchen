@@ -53,7 +53,7 @@ export default function Burger({ obj, nama, }: { obj?: any, nama?: any }) {
                             ease: "easeInOut",
                             delay: 2.25,
                         }}
-                        className="bg-red-900 w-full  md:mb-5 sm:mb-[10px] mb-[5px] rounded-lg pt-5 md:h-56 sm:h-28 h-16 "
+                        className="w-full  md:mb-5 sm:mb-[10px] mb-[5px] rounded-lg pt-5 md:h-56 sm:h-28 h-16 "
                     >
                         <Canvas
                             shadows
