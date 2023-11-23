@@ -11,7 +11,7 @@ const Object = ({ src }: { src?: any }) => {
     return <primitive object={pancake.scene} scale={7} position-y={-2} />;
 };
 
-export default function Pancake({ obj, nama }: { obj?: any, nama?: anyy }) {
+export default function Pancake({ obj, nama }: { obj?: any, nama?: any }) {
     return (
         <>
             <motion.div
