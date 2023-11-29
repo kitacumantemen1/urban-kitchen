@@ -13,8 +13,8 @@ const page = () => {
                     <p className="text-black font-bold text-4xl pt-20 ml-12 -translate-x-[150px]">RP.50.200</p>
                     <p className="-translate-x-[150px] pt-14 ml-12">5 Fried Chicken Wings + 2 Ovaltine </p>
                     <div>
-                        <div className='bg-red-900 h-16 w-96 mt-10 rounded-3xl text-center pt-3 -translate-x-[118px]'>
-                            <a className="text-italic text-3xl text-slate-100 " href="/DeliveryDetail"> + Order</a>
+                        <div className='bg-red-900 h-10 w-72 mt-10 rounded-3xl text-center pt-1 -translate-x-[118px]'>
+                            <a className="text-italic text-2xl text-slate-100 " href="/keranjang"> + Keranjang</a>
                         </div>
                     </div>
                     <div>
