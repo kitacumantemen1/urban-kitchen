@@ -18,8 +18,16 @@ export default function page() {
                             </div>
                         </div>
                         <div className='pt-40'>
-                            <div className='w-44 h-[50px] bg-red-900 text-slate-100  border-solid border-[2px] rounded-[8px] mt-5'>
-                                <p className='translate-y-[10px] text-center'>shafdhg</p>
+                            <div className='w-44 h-[50px] bg-red-900 text-slate-100  border-solid border-[2px] rounded-[8px] mt-5 grid grid-cols-3'>
+                                <div className='pl-5 text-5xl'>
+                                    -
+                                </div>
+                                <div className='p-1 pl-6 text-2xl'>
+                                    3
+                                </div>
+                                <div className='p-1 pl-5 text-3xl'>
+                                    +
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -36,8 +44,17 @@ export default function page() {
 
                         </div>
                         <div className='pt-32'>
-                            <div className='w-44 h-[50px] bg-red-900 text-slate-100  border-solid border-[2px] rounded-[8px] mt-5'>
-                                <p className='translate-y-[10px] text-center'>shafdhg</p>
+                            <div className='w-44 h-[50px] bg-red-900 text-slate-100  border-solid border-[2px] rounded-[8px] mt-5 grid grid-cols-3'>
+                                <div className='pl-5 text-5xl'>
+                                    -
+                                </div>
+                                <div className='p-1 pl-6 text-2xl'>
+                                    3
+                                </div>
+                                <div className='p-1 pl-5 text-3xl'>
+                                    +
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -51,15 +68,13 @@ export default function page() {
                             <div className='pl-[180px]'>
                                 <p className='w-44 bg-red-900 text-slate-100 text-center bg-inherit border-solid border-[2px] rounded-[8px] text-xl'>View Bag</p>
                             </div>
+
                             <div className='pl-48'>
+
                                 <p className='w-44 bg-red-900 text-slate-100 text-center bg-inherit border-solid border-[2px] rounded-[8px] text-xl'>CheckOut</p>
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </a>
             </div>
         </>
