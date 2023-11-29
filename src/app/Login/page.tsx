@@ -3,6 +3,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import React, { FormEvent, useState } from 'react'
 import { auth } from '../../../lib/firebase/page';
+import { Button } from 'flowbite-react';
 
 const page = () => {
 
@@ -16,6 +17,7 @@ const page = () => {
     const onSubmit = async (e: FormEvent) => {
         signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
             push("/menu");
+            alert('Berhasil');
         }).catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
@@ -44,7 +46,7 @@ const page = () => {
                             </div>
                             <div className="pt-[40px] pl-40">
                                 <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                                    <a className="text-italic text-xl text-slate-100" href="">Login</a>
+                                    <button className="text-italic text-xl text-slate-100" type='submit'>Login</button>
                                 </div>
                             </div>
                         </div>
