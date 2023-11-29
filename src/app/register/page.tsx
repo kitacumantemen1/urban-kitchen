@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../../../lib/firebase/page';
 import { db } from '../../../lib/firebase/page';
 import { collection, addDoc } from 'firebase/firestore';
+import { useRouter } from 'next/navigation';
 
 
 async function addDataToFirestore({ nama, email, nomor }: { nama?: any, email?: any, nomor?: any }) {
@@ -22,13 +23,18 @@ async function addDataToFirestore({ nama, email, nomor }: { nama?: any, email?: 
 }
 
 const Signup = () => {
+    const { push } = useRouter();
+
 
     const emailRef = useRef<HTMLInputElement>(null);
     const namaRef = useRef<HTMLInputElement>(null);
     const passwordRef = useRef<HTMLInputElement>(null);
     const nomorRef = useRef<HTMLInputElement>(null);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [nama, setNama] = useState("");
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [email, setEmail] = useState("");
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [nomor, setNomor] = useState("");
 
 
@@ -53,19 +59,17 @@ const Signup = () => {
             const user = userCredential.user;
             // Tambahkan data ke Firestore
             const docRef = await addDoc(collection(db, "userweb"), {
-                nama: namaValue,
-                email: emailValue,
-                nomor: nomorValue
+                nama: nama,
+                email: email,
+                nomor: nomor
             });
-
-
-
 
             // Handle berhasil membuat pengguna
             console.log("Pengguna berhasil dibuat:", user);
-            setNama('');
-            alert('Berhasil');
 
+            alert('Berhasil');
+            setNama('');
+            push("/menu");
 
         } catch (error) {
             // Handle error saat menambahkan data ke Firestore atau saat membuat pengguna
@@ -110,12 +114,14 @@ const Signup = () => {
                                                 <input required type='password' placeholder='Type Here' ref={passwordRef} color='bg-transparent' className='rounded-2xl w-[500px] border-slate-300 input' />
                                             </div>
                                         </div>
+
                                         <div className="p-10 pl-[150px]">
                                             <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
                                                 <button className="text-italic text-xl text-slate-100"
                                                     type='submit'>Submit</button>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
