@@ -17,14 +17,14 @@ export default function page() {
                     Foods
                 </h1>
             </div>
-            <div className='grid grid-cols-4 '>
+            <div className='grid grid-cols-4 pr-20'>
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
 
             </div>
-            <div className='grid grid-cols-4 mt-60  mb-[370px]'>
+            <div className='grid grid-cols-4 mt-60  mb-[370px] pr-20'>
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
                 <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
