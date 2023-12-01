@@ -9,7 +9,7 @@ import Pancake from '../komponen/Pancake'
 export default function page() {
     return (
         <div>
-            <div className='h-[400px] w-full'>
+            <div className='h-[400px] w-screen'>
                 <DefaultCarousel />
             </div>
             <p className='text-4xl font-bold text-center pt-20'>
