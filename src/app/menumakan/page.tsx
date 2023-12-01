@@ -9,7 +9,7 @@ import DefaultCarousel from '../komponen/carousel';
 export default function page() {
     return (
         <div>
-            <div className="h-[400px] w-full">
+            <div className="h-[400px] w-screen">
                 <DefaultCarousel />
             </div>
             <div>
