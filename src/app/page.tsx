@@ -8,7 +8,7 @@ import DefaultCarousel from "./komponen/carousel";
 export default function Home() {
   return (
     <div>
-      <div className="h-[400px] w-full">
+      <div className="h-[400px] w-screen">
         <DefaultCarousel />
       </div>
       <div>
@@ -16,7 +16,7 @@ export default function Home() {
           Urban Foods
         </h1>
       </div>
-      <div className="md:grid grid-cols-4 sm:grid grid-cols-2">
+      <div className="md:grid grid-cols-4 sm:grid grid-cols-2 pr-20">
         <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
         <Card img={"assets//waffle.png"} judul={"Fruit Waffles"} isi={"3 waffles + Honey + Premium fruit which is definitely fresh fruit"} />
         <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of beef and a layer of cheese which is very melting"} />
@@ -32,7 +32,7 @@ export default function Home() {
           Urban Drinks
         </h1>
       </div>
-      <div className="grid grid-cols-4 mb-[370px]">
+      <div className="grid grid-cols-4 mb-[370px] pr-20">
         <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
         <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
         <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
@@ -48,7 +48,7 @@ export default function Home() {
           Urban Snacks
         </h1>
       </div>
-      <div className="md:grid grid-cols-4 sm: grid grid-cols-2 mb-[370px]">
+      <div className="md:grid grid-cols-4 sm: grid grid-cols-2 mb-[370px] pr-20">
         <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
         <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
         <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
