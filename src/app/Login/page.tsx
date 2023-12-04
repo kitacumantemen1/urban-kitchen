@@ -56,7 +56,7 @@ const page = () => {
                             </div>
                         </div>
                     </div>
-                    <img src="assets//logo.png" className='translate-x-[150px] pt-56' />
+                    <img src="assets//logo.png" className='translate-x-[150px] pt-52' />
                 </div>
             </form>
 
