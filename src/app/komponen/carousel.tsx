@@ -7,23 +7,23 @@ export default function DefaultCarousel() {
         <Carousel>
             <img
                 alt="..."
-                src="assets//bacground.png"
+                src="assets//background.png"
             />
             <img
                 alt="..."
-                src="assets//motogp.jpeg"
+                src="assets//benner.jpg"
             />
             <img
                 alt="..."
-                src="assets/cover.jpg"
+                src="assets/food.jpg"
             />
             <img
                 alt="..."
-                src="assets/bacground.png"
+                src="assets/background.png"
             />
             <img
                 alt="..."
-                src="assets/motogp.jpeg"
+                src="assets/benner.jpg"
             />
         </Carousel>
     )
