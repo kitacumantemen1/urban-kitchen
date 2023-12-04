@@ -4,11 +4,11 @@ const HelpCenter = () => {
     return (
         <div>
             <div className='grid grid-cols-2'>
-                <h1 className="p-20 pb-20 font-bold text-3xl pl-44">
+                <h1 className="p-64 pb-20 font-bold text-3xl pl-[100px]">
                     Your satisfaction is always our priority
                 </h1>
 
-                <div className='pl-10'>
+                <div className='pl-10 p-20'>
                     <p className='font-bold text-lg pb-8'>Name:</p>
                     <div className=''>
                         <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
@@ -40,9 +40,11 @@ const HelpCenter = () => {
                     </div>
 
                 </div>
-                <h1 className=" pb-20 font-bold text-xl pl-44 w-[600px] -translate-y-[750px]">
-                    For further questions, feel free to contact us using the form on the right. We will contact you as soon as possible.
-                </h1>
+                <div>
+                    <h1 className=" pb-20 font-bold text-xl pl-[100px] w-[600px] -translate-y-[730px]">
+                        For further questions, feel free to contact us using the form on the right. We will contact you as soon as possible.
+                    </h1>
+                </div>
             </div>
         </div>
 
