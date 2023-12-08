@@ -1,7 +1,12 @@
 'use client';
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from "@emailjs/browser";
 const HelpCenter = () => {
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [topic, setTopic] = useState("");
+    // const [outlet, setOutlet] = useState("");
+    // const [message, setMessage] = useState("");
     const form: any = useRef();
     const sendMail = async (e: any) => {
         e.preventDefault();

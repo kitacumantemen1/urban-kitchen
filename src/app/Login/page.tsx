@@ -14,7 +14,7 @@ const page = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [password, setPassword] = useState("");
 
-    const onSubmit = async (e: FormEvent) => {
+    const onSubmit = async (e:any) => {
         signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
             push("/menu");
             alert('Berhasil');
