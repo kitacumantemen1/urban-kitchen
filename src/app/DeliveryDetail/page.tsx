@@ -1,8 +1,28 @@
-import { Button, Checkbox, Label, TextInput } from 'flowbite-react'
-import React from 'react'
+'use client';
+import React, { useRef, useState } from 'react'
 import Iframe from 'react-iframe'
+import emailjs from "@emailjs/browser";
 
 const page = () => {
+  const form: any = useRef();
+  const sendMail = async (e: any) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_jq3kzs9",
+        "template_lat31j2",
+        form.current,
+        "uJVzpHqiRUtgqvAeS"
+      )
+      .then(
+        (result) => {
+          alert("message send");
+        },
+        (error) => {
+          alert(error);
+        }
+      );
+  };
   return (
     <div>
       <div className='grid grid-cols-2 py-10 gap-2 pl-24 pb-52 pt-20'>
@@ -13,29 +33,31 @@ const page = () => {
           className=""
           display="block"
           position="relative" />
-        <div>
-          <p className='font-bold text-lg pb-8'>Insert Your Name:</p>
+        <form ref={form} onSubmit={(e) => sendMail(e)}>
+          <div>
+            <p className='font-bold text-lg pb-8'>Insert Your Name:</p>
 
-          <div className=''>
-
-            <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
-            <p className='font-bold text-lg pb-8 pt-8'>Insert Your Address:</p>
             <div className=''>
-              <input type="text" placeholder='Type Here' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
-            </div>
-            <div className="pl-24 translate-y-[70px] pt-10">
-              <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                <a className="text-italic text-xl text-slate-100" href="/payment">Payment</a>
-              </div>
-            </div>
-            <div className="pl-24 -translate-y-[40px]">
-              <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
-                <a className="text-italic text-xl text-slate-100" href="/menumakan">Add Other Menu</a>
-              </div>
-            </div>
 
+              <input type="text" placeholder='Type Here' name='from_name' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
+              <p className='font-bold text-lg pb-8 pt-8'>Insert Your Address:</p>
+              <div className=''>
+                <input type="text" placeholder='Type Here' name='from_address' color='bg-transparent' className='rounded-2xl w-[500px] borde-slate-300 input' />
+              </div>
+              <div className="pl-24 translate-y-[70px] pt-10">
+                <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
+                  <button type='submit' className="text-italic text-xl text-slate-100">Payment</button>
+                </div>
+              </div>
+              <div className="pl-24 -translate-y-[40px]">
+                <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
+                  <button type='submit' className="text-italic text-xl text-slate-100">Add Other Menu</button>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
 
