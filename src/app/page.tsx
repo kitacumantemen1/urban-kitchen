@@ -18,9 +18,7 @@ export default function Home() {
       </div>
       <div className="md:grid grid-cols-4 sm:grid grid-cols-2 pr-20">
         <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-        <Card img={"assets//waffle.png"} judul={"Fruit Waffles"} isi={"3 waffles + Honey + Premium fruit which is definitely fresh fruit"} />
-        <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of beef and a layer of cheese which is very melting"} />
-        <Card img={"assets//waffle.png"} judul={"Fruit Waffles"} isi={"3 waffles + Honey + Premium fruit which is definitely fresh fruit"} />
+
       </div>
       <div className="flex justify-center items-center mt-[400px]">
         <div className="bg-red-900 h-19 md:w-56 ms:w-48 w-44 rounded-lg text-center ">
