@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="md:grid grid-cols-4 sm:grid grid-cols-2 pr-20">
-        <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
+        <Card />
 
       </div>
       <div className="flex justify-center items-center mt-[400px]">
@@ -31,10 +31,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="grid grid-cols-4 mb-[370px] pr-20">
-        <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-        <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
-        <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-        <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
+        <Card />
       </div>
       <div className="flex justify-center items-center mt-[80px] mb-[80px]">
         <div className="bg-red-900 h-19 md:w-56 sm:w-48 w-44 rounded-lg text-center ">
@@ -47,10 +44,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="md:grid grid-cols-4 sm: grid grid-cols-2 mb-[370px] pr-20">
-        <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
-        <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
-        <Card img={"assets//pancake-bg.png"} judul={"Pancake"} isi={"Espresso + Susu segar"} />
-        <Card img={"assets//kentang-bg.png"} judul={"French fries"} isi={"Espresso + Susu segar + caramel"} />
+        <Card />
       </div>
       <div className="flex justify-center items-center mt-[80px] mb-[80px]">
         <div className="bg-red-900 h-19 md:w-56 sm:w-48 w-44 rounded-lg text-center ">
